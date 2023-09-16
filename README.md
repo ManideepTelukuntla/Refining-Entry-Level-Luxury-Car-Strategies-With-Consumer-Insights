@@ -66,7 +66,7 @@ In Task B, we conducted a frequency analysis to identify the top mentioned brand
 
 Following Task B, in Task C, we utilized the data to calculate lift ratios between the top-mentioned brands. This involved creating a heatmap visualization that clearly displayed the lift scores between these brands, providing a graphical representation of the associations and relationships between them. Here is the heatmap visualization:
 
-![Heatmap Visualization](Figures/Brand-Attributes-Lift-Scores-Heatmap.png)
+![Heatmap Visualization](Figures/Brand-Lift-Scores-Heatmap.png)
 
 This visualization will be pivotal in understanding the brand dynamics and consumer preferences in the luxury car market. This data will further assist in understanding the consumer preferences and discussions in depth as we progress through other tasks in the project, aiming to provide actionable insights and strategies for luxury car brands.
 

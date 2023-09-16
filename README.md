@@ -7,13 +7,9 @@
 4. [Data Resources](#4-data-resources)
 5. [Conclusions and Insights](#5-conclusions-and-insights)
 
----
-
 ## 1. Description 
 
 In this project, we analyzed discussions from the Entry-Level Luxury Car Forum. Utilizing data scraping and Lift Analysis techniques, we discerned prevalent brand comparisons and the attributes being discussed. Furthermore, we evaluated consumer aspirations by analyzing brand mentions associated with aspiration-indicative words.
-
----
 
 ## 2. Research Questions
 
@@ -44,8 +40,6 @@ In this project, we analyzed discussions from the Entry-Level Luxury Car Forum. 
 
 ### Task H:
 - Determine the most aspirational brand in your data and discuss the business implications for this brand.
-
----
 
 ## 3. Project Overview
 
@@ -172,15 +166,11 @@ Given that the lift values did not provide a clear insight, we decided to consid
 
 From this analysis, it is evident that BMW is perceived as the most aspirational brand, followed by Audi and Acura. This information can be instrumental in shaping brand strategies, especially in terms of positioning and targeting in the market.
 
----
-
 ## 4. Data Resources
 
 The following data files are essential for the analysis:
 - **DiscussionData.csv**: This file has the data we scraped from the forum for our analysis
 - **car_models_and_brands.csv**: This file helps in identifying brands even when only car models are mentioned in the discussions
-
----
 
 ## 5. Conclusions and Insights
 

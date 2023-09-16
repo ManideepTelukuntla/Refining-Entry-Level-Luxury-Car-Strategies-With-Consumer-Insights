@@ -46,7 +46,30 @@ In this project, we analyzed discussions from the Entry-Level Luxury Car Forum. 
 ---
 
 ## 3. Project Overview
-(Provide a brief overview of the project here)
+During the initial phase of the project, we focused on gathering substantial data from the Entry-Level Luxury Car Forum. This data served as a rich resource for understanding consumer preferences and discussions revolving around various car brands and their attributes.
+
+In Task B, we conducted a frequency analysis to identify the top mentioned brands and common terms in the discussions. The analysis revealed the following brands as the most frequently mentioned:
+
+- BMW: 2003 mentions
+- Audi: 1467 mentions
+- Acura: 1312 mentions
+- Honda: 949 mentions
+- Seat: 594 mentions
+- Volkswagen: 469 mentions
+- Sedan: 424 mentions
+- Infiniti: 395 mentions
+- Cadillac: 379 mentions
+- Hyundai: 358 mentions
+- Toyota: 345 mentions
+- Problem: 309 mentions
+- Ford: 275 mentions
+
+Following Task B, in Task C, we utilized the data to calculate lift ratios between the top-mentioned brands. This involved creating a heatmap visualization that clearly displayed the lift scores between these brands, providing a graphical representation of the associations and relationships between them. Here is the heatmap visualization:
+
+![Heatmap Visualization](path/to/your/heatmap.jpg)
+
+This visualization will be pivotal in understanding the brand dynamics and consumer preferences in the luxury car market. This data will further assist in understanding the consumer preferences and discussions in depth as we progress through other tasks in the project, aiming to provide actionable insights and strategies for luxury car brands.
+
 
 ---
 

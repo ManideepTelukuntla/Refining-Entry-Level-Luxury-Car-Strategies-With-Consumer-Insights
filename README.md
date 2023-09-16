@@ -177,8 +177,8 @@ From this analysis, it is evident that BMW is perceived as the most aspirational
 ## 4. Data Resources
 
 The following data files are essential for the analysis:
-- **DiscussionData.csv**: This file contains the data scraped from the forum used for this analysis.
-- **car_models_and_brands.csv**: This file is used for car models to brand mapping to capture the brands even if car models are mentioned instead of brand names.
+- **DiscussionData.csv**: This file has the data we scraped from the forum for our analysis
+- **car_models_and_brands.csv**: This file helps in identifying brands even when only car models are mentioned in the discussions
 
 ---
 

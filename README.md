@@ -100,6 +100,26 @@ In Task D, we further analyzed the data through a multi-dimensional scaling (MDS
 | Integrated Insights  | Partnerships and Co-branding | The high lift values among certain brand pairs suggest potential for partnerships or co-branding opportunities. This is not uncommon in the automotive industry where technology and platforms are often shared. |
 |                      | Competitive Positioning    | Ford's unique positioning could be both an opportunity and a challenge. The brand has been investing in electric and autonomous vehicles, which could explain its distinct market perception and offer avenues for differentiation. |
 
+During our analysis in Task F, we identified the top attributes that were most frequently mentioned in the discussions. These attributes give us an insight into what features or aspects are most discussed or considered by consumers when discussing entry-level luxury cars. The top attributes mentioned are as follows:
+
+1. **Engine** - This attribute being the most mentioned indicates that the engine specifications and performance are a significant topic of discussion and consideration among consumers.
+   
+2. **Sport** - This suggests that the sportiness or the sport features of the cars are a popular topic of discussion, possibly indicating a preference or a trend in the market towards sportier vehicles.
+   
+3. **Driving** - This attribute being frequently mentioned indicates that the driving experience, which includes aspects like handling, comfort, and driving pleasure, are significant considerations for consumers.
+   
+4. **Miles** - This attribute being mentioned frequently suggests that mileage or fuel efficiency is a significant consideration for consumers, possibly indicating a preference for cars that offer better mileage.
+   
+5. **Dealer** - This being a top attribute indicates that discussions often involve dealer experiences, which could include topics like customer service, dealer policies, and purchasing experiences.
+
+These insights can be instrumental in understanding consumer preferences and trends in the entry-level luxury car market.
+
+To visualize the associations, we plotted a heatmap that clearly illustrates the lift scores between the brands and these attributes. This heatmap serves as a graphical representation of how strongly these attributes are associated with each brand, providing insights into the perception and discussion trends surrounding each brand in the forum.
+
+Here is the heatmap visualization illustrating the lift scores between the brands and the top attributes:
+
+![Brand-Attribute Heatmap Visualization](path/to/your/brand-attribute-heatmap.jpg)
+
 ---
 
 ## 4. Data Resources

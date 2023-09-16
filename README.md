@@ -70,7 +70,35 @@ Following Task B, in Task C, we utilized the data to calculate lift ratios betwe
 
 In Task D, we further analyzed the data through a multi-dimensional scaling (MDS) plot, which showcased two distinct clusters: luxury and non-luxury car brands. This visualization helped in delineating the perceptual differences between the brands, offering a clear picture of the market dynamics and consumer preferences. Here is the MDS plot:
 
-![MDS Plot](path/to/your/mdsplot.jpg)
+![MDS Plot](Figures/MDS-Car-Brands.png)
+
+#### Insights
+
+| Analysis Type        | Insight Category           | Description  |
+|----------------------|----------------------------|--------------|
+| MDS Coordinates      | Cluster of Luxury Brands   | Brands like 'bmw', 'audi', and 'infiniti' are grouped closely together, suggesting they are perceived similarly, likely as luxury or high-end brands. |
+|                      | Mainstream vs. Luxury      | 'honda' and 'toyota' are distanced from luxury brands like 'bmw', indicating a differentiation in the market perception between mainstream and luxury brands. |
+|                      | Isolated Brands            | 'ford' and 'honda' appear as outliers, suggesting they are unique in certain aspects compared to other brands. |
+| Lift Values          | Affinity Between Luxury Brands | High lift values for combinations like ('audi', 'infiniti') and ('bmw', 'audi') show that these luxury brands often appear together, suggesting a strong affinity among consumers for these brands. |
+|                      | Mainstream Affinities      | High lift values between ('honda', 'toyota') and ('hyundai', 'toyota') suggest that these mainstream brands share a lot of similarities in consumer perception. |
+|                      | Mixed Affinities           | Brands like 'audi' and 'volkswagen' have a significant lift value, indicating that consumers often consider these brands together, despite one being a luxury brand and the other more mainstream. |
+| Integrated Insights  | Cross-Segment Appeal       | 'audi' seems to have a broader appeal, as indicated by high lift values with both luxury ('bmw', 'infiniti') and non-luxury ('volkswagen') brands. This could be a unique selling proposition. |
+|                      | Potential Partnerships     | High lift values between brands like ('audi', 'infiniti') and ('honda', 'toyota') could imply beneficial partnerships or co-branding opportunities. |
+|                      | Targeting Strategy         | If the client is, for example, 'audi', they could focus marketing strategies on consumers who also show interest in 'bmw' or 'infiniti' given their close proximity in the MDS plot and high lift values. |
+|                      | Competitive Positioning    | Brands like 'ford' that are isolated in the MDS plot but have lower lift values with other brands may need to re-evaluate their market positioning. |
+
+#### Relevancy with Market Perception
+
+| Analysis Type        | Insight Category           | Relevancy with Current Real-World Market Perception  |
+|----------------------|----------------------------|------------------------------------------------------|
+| MDS Coordinates      | Luxury Cluster             | Brands like BMW, Audi, and Infiniti are generally considered luxury brands. Their close proximity in the MDS plot aligns well with market perceptions. |
+|                      | Mainstream Brands          | Honda and Toyota are perceived as mainstream and reliable brands. Their distinct positioning in the MDS plot is consistent with this perception. |
+|                      | Isolated Brands            | Ford has a diverse product line ranging from trucks to sedans to electric vehicles. Its unique positioning in the MDS plot could reflect this diversity. |
+| Lift Values          | High Affinity Among Luxury Brands | High lift values among Audi, BMW, and Infiniti suggest that consumers interested in one luxury brand are likely to consider others. This aligns with the general perception that these brands compete in the same luxury market segment. |
+|                      | Mainstream Affinities      | High lift values for Honda-Toyota and Hyundai-Toyota pairs are consistent with the market segment that values reliability and cost-effectiveness. These brands are often compared and considered together by consumers. |
+|                      | Cross-Segment Appeal       | Audi has high lift values with both luxury (BMW, Infiniti) and mainstream (Volkswagen) brands. This may reflect Audi's broader market appeal and is consistent with its positioning as a luxury brand that offers some more accessible models. |
+| Integrated Insights  | Partnerships and Co-branding | The high lift values among certain brand pairs suggest potential for partnerships or co-branding opportunities. This is not uncommon in the automotive industry where technology and platforms are often shared. |
+|                      | Competitive Positioning    | Ford's unique positioning could be both an opportunity and a challenge. The brand has been investing in electric and autonomous vehicles, which could explain its distinct market perception and offer avenues for differentiation. |
 
 ---
 

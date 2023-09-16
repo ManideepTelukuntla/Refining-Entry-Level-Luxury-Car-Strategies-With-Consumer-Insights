@@ -2,19 +2,21 @@
 
 ## Table of Contents
 1. [Description](#1-description)
-2. [Research Questions](#2-questions)
-3. [Project Overview](#3-overview)
-4. [Data Resources](#4-data)
-5. [Conclusions and Insights](#5-conclusions)
+2. [Research Questions](#2-research-questions)
+3. [Project Overview](#3-project-overview)
+4. [Data Resources](#4-data-resources)
+5. [Conclusions and Insights](#5-conclusions-and-insights)
 
 ---
 
 ## 1. Description 
+
 In this project, we analyzed discussions from the Entry-Level Luxury Car Forum. Utilizing data scraping and Lift Analysis techniques, we discerned prevalent brand comparisons and the attributes being discussed. Furthermore, we evaluated consumer aspirations by analyzing brand mentions associated with aspiration-indicative words.
 
 ---
 
 ## 2. Research Questions
+
 ### Task 0:
 1. Develop a Python scraper to retrieve messages from Edmunds.com discussion forums. The output should be a .csv file containing columns: date and message. Study the forum's HTML structure and threading patterns before creating the scraper.
 2. Extract approximately 5000 car-related posts from the [Entry Level Luxury forum](https://forums.edmunds.com/discussion/2864/general/x/entry-level-luxury-performance-sedans).
@@ -46,6 +48,7 @@ In this project, we analyzed discussions from the Entry-Level Luxury Car Forum. 
 ---
 
 ## 3. Project Overview
+
 During the initial phase of the project, we focused on gathering substantial data from the Entry-Level Luxury Car Forum. This data served as a rich resource for understanding consumer preferences and discussions revolving around various car brands and their attributes.
 
 In Task B, we conducted a frequency analysis to identify the top mentioned brands and common terms in the discussions. The analysis revealed the following brands as the most frequently mentioned:
@@ -72,7 +75,7 @@ In Task D, we further analyzed the data through a multi-dimensional scaling (MDS
 
 ![MDS Plot](Figures/MDS-Car-Brands.png)
 
-#### Insights
+### Insights
 
 | Analysis Type        | Insight Category           | Description  |
 |----------------------|----------------------------|--------------|
@@ -87,7 +90,7 @@ In Task D, we further analyzed the data through a multi-dimensional scaling (MDS
 |                      | Targeting Strategy         | If the client is, for example, 'audi', they could focus marketing strategies on consumers who also show interest in 'bmw' or 'infiniti' given their close proximity in the MDS plot and high lift values. |
 |                      | Competitive Positioning    | Brands like 'ford' that are isolated in the MDS plot but have lower lift values with other brands may need to re-evaluate their market positioning. |
 
-#### Relevancy with Market Perception
+### Relevancy with Market Perception
 
 | Analysis Type        | Insight Category           | Relevancy with Current Real-World Market Perception  |
 |----------------------|----------------------------|------------------------------------------------------|
@@ -118,16 +121,67 @@ To visualize the associations, we plotted a heatmap that clearly illustrates the
 
 Here is the heatmap visualization illustrating the lift scores between the brands and the top attributes:
 
-![Brand-Attribute Heatmap Visualization](path/to/your/brand-attribute-heatmap.jpg)
+![Brand-Attribute Heatmap Visualization](Figures/Brand-Attributes-Lift-Scores-Heatmap.png)
+
+In Task G, we synthesize the insights derived from the lift analysis conducted in Task F to formulate strategic advice for the top brands in the market. The advice is based on the lift scores between the brands and the top attributes discussed in the forum. Here, we present a table that outlines the strategic advice for each brand based on their association with the top attributes:
+
+| Brand    | Attribute | Lift Score | Strategic Advice                                                                                       |
+|----------|-----------|------------|--------------------------------------------------------------------------------------------------------|
+| BMW      | Sport     | 1.407      | Leverage the brand's strong association with "sportiness" in marketing campaigns.                       |
+| Audi     | Dealer    | 1.395      | Emphasize the quality of Audi dealerships and customer service to attract more buyers.                  |
+| Toyota   | Sport     | 1.244      | Explore options to market sportier models or features, given the unexpected strong lift score with "sport". |
+| Audi     | Sport     | 1.165      | Consider co-marketing sporty models alongside your dealer network.                                     |
+| BMW      | Dealer    | 1.161      | Enhance the customer experience at dealerships to solidify the positive association.                    |
+| Acura    | Dealer    | 1.074      | Improve dealership experiences as this attribute appears to be a strong point for the brand.            |
+| Infiniti | Sport     | 1.042      | Utilize the sporty image in marketing campaigns to attract a younger or more dynamic audience.          |
+| Honda    | Sport     | 0.999      | Investigate why the brand nearly has a neutral association with "sport" and consider if repositioning is needed. |
+| Ford     | Dealer    | 0.643      | Focus on improving the customer experience at dealerships to boost this low lift score.                 |
+| Cadillac | Engine    | 0.135      | Urgently address the negative perception around the engine quality or performance in your vehicles.     |
+
+This table serves as a strategic guide for brands to align their marketing and operational strategies with the perceptions and discussions prevalent among consumers in the entry-level luxury car market. It provides a roadmap for brands to leverage their strengths and address the areas where they have room for improvement, based on consumer discussions and perceptions.
+
+In Task H, our objective was to identify the most aspirational brand in the dataset. Initially, we calculated the lift scores between various brands and the attribute "aspiration". However, the lift scores did not provide a clear indication of the relationship between the brands and the level of aspiration associated with them. Here are the lift scores we obtained:
+
+| Brand       | Attribute  | Lift Score |
+|-------------|------------|------------|
+| BMW         | Aspiration | 0.753474   |
+| Acura       | Aspiration | 0.703555   |
+| Audi        | Aspiration | 0.687380   |
+| Infiniti    | Aspiration | 0.656413   |
+| Honda       | Aspiration | 0.608119   |
+| Cadillac    | Aspiration | 0.579710   |
+| Ford        | Aspiration | 0.536327   |
+| Toyota      | Aspiration | 0.525829   |
+| Volkswagen  | Aspiration | 0.459367   |
+| Hyundai     | Aspiration | 0.446224   |
+
+Given that the lift values did not provide a clear insight, we decided to consider the number of posts mentioning "aspiration" alongside the respective brands as a metric to gauge the level of aspiration associated with each brand. Here are the results:
+
+| Brand       | Attribute  | # of Posts |
+|-------------|------------|------------|
+| BMW         | Aspiration | 126        |
+| Audi        | Aspiration | 78         |
+| Acura       | Aspiration | 66         |
+| Honda       | Aspiration | 45         |
+| Infiniti    | Aspiration | 24         |
+| Cadillac    | Aspiration | 19         |
+| Volkswagen  | Aspiration | 18         |
+| Toyota      | Aspiration | 18         |
+| Ford        | Aspiration | 15         |
+| Hyundai     | Aspiration | 13         |
+
+From this analysis, it is evident that BMW is perceived as the most aspirational brand, followed by Audi and Acura. This information can be instrumental in shaping brand strategies, especially in terms of positioning and targeting in the market.
 
 ---
 
 ## 4. Data Resources
+
 The following data files are essential for the analysis:
-- DiscussionData.csv
-- car_models_and_brands.csv
+- **DiscussionData.csv**: This file contains the data scraped from the forum used for this analysis.
+- **car_models_and_brands.csv**: This file is used for car models to brand mapping to capture the brands even if car models are mentioned instead of brand names.
 
 ---
 
 ## 5. Conclusions and Insights
+
 The data analysis reveals a distinct separation between luxury and mainstream brands. Luxury brands predominantly excel in aspects like aspiration and sportiness, whereas mainstream brands have a broader attribute spectrum. This presents an opportunity for brands to accentuate their strengths and address weaknesses. For instance, Cadillac could enhance their engine quality perception, while Audi could strategize to reach a wider consumer base. Brands might also consider forming partnerships based on high lift values to explore complementary market segments.

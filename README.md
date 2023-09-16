@@ -68,8 +68,9 @@ Following Task B, in Task C, we utilized the data to calculate lift ratios betwe
 
 ![Heatmap Visualization](Figures/Brand-Lift-Scores-Heatmap.png)
 
-This visualization will be pivotal in understanding the brand dynamics and consumer preferences in the luxury car market. This data will further assist in understanding the consumer preferences and discussions in depth as we progress through other tasks in the project, aiming to provide actionable insights and strategies for luxury car brands.
+In Task D, we further analyzed the data through a multi-dimensional scaling (MDS) plot, which showcased two distinct clusters: luxury and non-luxury car brands. This visualization helped in delineating the perceptual differences between the brands, offering a clear picture of the market dynamics and consumer preferences. Here is the MDS plot:
 
+![MDS Plot](path/to/your/mdsplot.jpg)
 
 ---
 

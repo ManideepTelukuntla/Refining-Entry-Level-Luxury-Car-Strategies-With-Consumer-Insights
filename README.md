@@ -1,21 +1,23 @@
 # Reshaping Luxury Car Strategies with Consumer Insights
 
 ## Table of Contents
-1. [Description](#1-description)
+1. [Introduction](#1-introduction)
 2. [Research Questions](#2-research-questions)
 3. [Project Overview](#3-project-overview)
 4. [Data Resources](#4-data-resources)
 5. [Conclusions and Insights](#5-conclusions-and-insights)
+6. [Contributors/Team](#6-contributors-team)
+7. [License](#7-license)
 
-## 1. Description 
+## 1. Introduction 
 
 In this project, we analyzed discussions from the Entry-Level Luxury Car Forum. Utilizing data scraping and Lift Analysis techniques, we discerned prevalent brand comparisons and the attributes being discussed. Furthermore, we evaluated consumer aspirations by analyzing brand mentions associated with aspiration-indicative words.
 
 ## 2. Research Questions
 
 ### Task 0:
-1. Develop a Python scraper to retrieve messages from Edmunds.com discussion forums. The output should be a .csv file containing columns: date and message. Study the forum's HTML structure and threading patterns before creating the scraper.
-2. Extract approximately 5000 car-related posts from the [Entry Level Luxury forum](https://forums.edmunds.com/discussion/2864/general/x/entry-level-luxury-performance-sedans).
+- Develop a Python scraper to retrieve messages from Edmunds.com discussion forums. The output should be a .csv file containing columns: date and message. Study the forum's HTML structure and threading patterns before creating the scraper.
+- Extract approximately 5000 car-related posts from the [Entry Level Luxury forum](https://forums.edmunds.com/discussion/2864/general/x/entry-level-luxury-performance-sedans).
 
 ### Task A:
 - Test the data's adherence to Zipf’s law econometrically and plot the 100 most common words against the law's theoretical prediction. Do not remove stopwords or perform stemming/lemmatization.
@@ -175,3 +177,13 @@ The following data files are essential for the analysis:
 ## 5. Conclusions and Insights
 
 The data analysis reveals a distinct separation between luxury and mainstream brands. Luxury brands predominantly excel in aspects like aspiration and sportiness, whereas mainstream brands have a broader attribute spectrum. This presents an opportunity for brands to accentuate their strengths and address weaknesses. For instance, Cadillac could enhance their engine quality perception, while Audi could strategize to reach a wider consumer base. Brands might also consider forming partnerships based on high lift values to explore complementary market segments.
+
+## 6. Contributors/Team
+- Manideep Telukuntla
+- Karthick Vel Kathirvel
+- Spandan Pal
+- Sharan Arora
+- Raghav Vaidya
+
+## 7. License
+Licensed under [MIT License](https://github.com/ManideepTelukuntla/InvestigateTMDBMovieData/blob/master/LICENSE)

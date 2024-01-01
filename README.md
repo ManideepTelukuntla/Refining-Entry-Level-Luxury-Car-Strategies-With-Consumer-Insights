@@ -183,6 +183,7 @@ The data analysis reveals a distinct separation between luxury and mainstream br
 - Karthick Vel Kathirvel
 - Spandan Pal
 - Sharan Arora
+- Pritesh Singh
 - Raghav Vaidya
 
 ## 7. License

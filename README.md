@@ -6,7 +6,7 @@
 3. [Project Overview](#3-project-overview)
 4. [Data Resources](#4-data-resources)
 5. [Conclusions and Insights](#5-conclusions-and-insights)
-6. [Contributors/Team](#6-contributors-team)
+6. [Contributors/Team](#6-contributorsteam)
 7. [License](#7-license)
 
 ## 1. Introduction 

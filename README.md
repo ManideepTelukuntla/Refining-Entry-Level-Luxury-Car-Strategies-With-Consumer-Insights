@@ -1,5 +1,11 @@
 # Reshaping Luxury Car Strategies with Consumer Insights
 
+<div align="center">
+  <img src="https://github.com/ManideepTelukuntla/Reshaping-Luxury-Car-Strategies-With-Consumer-Insights/blob/main/Figures/Entry-Level-Luxury-Cars-Banner.svg" width="800" height="600" alt="Stock Portfolio Optimization">
+  <br>
+  <p><a href="https://www.freepik.com/free-vector/taxi-service-online-service-platform-yellow-taxi-car-automobile-cab-with-driver-inside-idea-public-city-transportation-online-forum-isolated-flat-illustration_25968197.htm#query=Vector%20people%20giving%20reviews%20on%20electric%20car&position=32&from_view=search&track=ais&uuid=aa005ee9-4e0c-44e5-98c1-cbbe6db9458a">Image by vector4stock</a> on Freepik</p>
+</div>
+
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Research Questions](#2-research-questions)

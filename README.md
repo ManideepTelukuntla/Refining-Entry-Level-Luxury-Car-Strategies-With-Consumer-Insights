@@ -1,4 +1,4 @@
-# Reshaping Luxury Car Strategies with Consumer Insights
+# Refining Entry-Level Luxury Car Strategies with Consumer Insights
 
 <div align="center">
   <img src="https://github.com/ManideepTelukuntla/Reshaping-Luxury-Car-Strategies-With-Consumer-Insights/blob/main/Figures/Entry-Level-Luxury-Cars-Banner.svg" width="800" height="600" alt="Stock Portfolio Optimization">
